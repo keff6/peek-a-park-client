@@ -1,11 +1,15 @@
-
+import React from 'react';
+import { withStyles } from '@material-ui/core';
+import Provider from './Config/Provider';
+import Routes from './Config/Routes';
+import styles from './App.styles';
 
 function App() {
   return (
-    <div className="App">
-      Peek a Park
-    </div>
+      <Provider>
+        <Routes />
+      </Provider>
   );
 }
 
-export default App;
+export default withStyles(styles)(App);
