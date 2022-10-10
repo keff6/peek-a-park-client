@@ -2,8 +2,7 @@ import { createContext, useState } from 'react';
 
 const Provider = ({ children }) =>{
   const [state,setState] = useState({
-    mobileOpen: false,
-    isReportPaymentOpen: false,
+    selectedState: '',
   });
     return (            
       <AppContext.Provider value={[state,setState]}>
