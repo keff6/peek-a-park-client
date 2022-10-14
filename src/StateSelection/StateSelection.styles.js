@@ -10,11 +10,25 @@ const styles = theme => ({
   title: {
     margin: 0,
     textAlign: 'center',
+    fontSize: '35px',
     paddingTop: 30,
-    color: 'white',
+    color: '#0b4a0e',
   },
   mapContainer: {
     textAlign: 'center',
+  },
+  subTitle: {
+    margin: '20px auto 10px',
+    textAlign: 'center',
+  },
+  stateName: {
+    display: 'inline'
+  },
+  button: {
+    color: 'white',
+    margin: '0 0 0 20px',
+    border: '1px solid white',
+    borderColor: 'white',
   }
 });
 
